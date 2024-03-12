@@ -1,0 +1,106 @@
+.skills-container{
+    padding: 20px 8%;
+    background-color: #262626;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
+}
+.skills-heading{
+font-family: "roboto";
+color:#ffffff;
+line-height: 1.5;
+}
+.skill-highlight{
+    color:#ef1111
+}
+.skill-proficiency-section{
+    display: flex;
+}
+.skills-section{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+.skill-sub-heading{
+    color:#dbdbdb;
+    font-family: "roboto";
+    line-height: 1.5;
+}
+.techincal-skills{
+    column-gap: 12%;
+    row-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lang-section{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.skill-img{
+    width:98px;
+    height:90px;
+    border-radius: 8px;
+}
+.skill-img:hover{
+    box-shadow: 0 0 10px 0 #fbfbfb;
+}
+.skillName{
+    color:#ffffff;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.circular-progress-container {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .circular-progress {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circular-progress-background {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 8;
+  }
+  
+  .circular-progress-bar {
+    fill: none;
+    stroke: #1B6778; 
+    stroke-width: 8;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.3s;
+  }
+  
+  .circular-progress-text {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    fill: #fbfbfb; 
+  }
+  .professional-section{
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height:100%;
+     row-gap: 20px;    
+  }
+  .professional-level-skills{
+    column-gap: 12%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+  }

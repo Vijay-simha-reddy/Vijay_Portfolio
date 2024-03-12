@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.home-page-container{
+    padding: 0px 8%;
+    background-color: #262626;
+    height:50vh;
+    margin-top:-20px
+}
+
+.home-information-section{
+    display: flex;
+    align-items: center;
+    column-gap:24px
+}
+.profile-pic-section {
+    background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
+    width:500px;
+    height:450px;
+    justify-self:flex-end ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-profile-img{
+    width:500px;
+    height:500px
+}
+.introduction-section{
+    width:50%;
+}
+.third-heading-info{
+    color:#ffffff;
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.5;
+}
+.first-heading-info{
+    color:#ffffff;
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5;
+}
+.summary-info{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "roboto";
+    color:#fdfdfd;
+    line-height: 1.5;
+    margin-top: 32px;
+}
+.highlight-domain{
+    color:#ef1111;
+    margin-left: 8px;
+}
+.more-about-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 18px;
+    margin-top: 42px;
+}
+.more-btn{
+    border:none;
+    background-color: transparent;
+    background-color: #ef1111;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 2px;
+    color:#ffffff;
+    padding:8px 18px 
+}
+.icon-btn{
+    background-color: transparent;
+    border:none;
+}
+.icon{
+    width:28px;
+    height:28px;
+}
+

@@ -1,0 +1,47 @@
+.about-page-container{
+    padding: 20px 8%;
+    background-color: #262626;
+    height:70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-data{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+
+}
+.about-options-heading{
+    color:#ffffff;
+    font-family: "roboto";
+}
+.about-options-highlight{
+    color:#ef1111
+}
+.about-sub-heading{
+    color:#ffffff;
+    font-family: "roboto";
+    margin-top: 14px;
+}
+.about-info{
+    color:#ffffff;
+    font-family: "roboto";
+    margin-top: 18px;
+}
+.about-profile-about-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+  }
+  
+  .about-profileImage {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+  }
+  

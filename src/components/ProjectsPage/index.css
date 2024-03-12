@@ -1,0 +1,79 @@
+.projects-container{
+    padding: 20px 8%;
+    background-color: #262626;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+.project-heading{
+    color:#ffffff;
+    font-family: "roboto";
+    text-align: center;
+}
+.project-highlight{
+    color:#ef1111;
+}
+.project-list-items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+    padding: 18px;
+    margin-top: 20px;
+}
+.item-container{
+    display: flex;
+    width:98%;
+    height:260px;
+    background-color: #dbdbdb;
+    border-radius: 12px;
+    border: 2px solid rgb(224, 222, 222);
+    padding: 4px;
+}
+.item-container:hover{
+    box-shadow: 0 0 16px 0 rgb(64, 136, 184);
+}
+.projectImg{
+    width:50%;
+    height:100%;
+    border-radius: 8px;
+}
+.projectInfo{
+    background-color: #dbdbdb;
+    width:50%;
+    padding: 10px 20px;
+}
+.projectName, .projectLink{
+    font-family:"roboto" ;
+    color:#262626
+}
+.projectLink{
+    font-weight: 600;
+    margin-top: 12px;
+}
+.link{
+    text-decoration: none;
+    color:#1B6778
+}
+
+.technologies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 14px;
+}
+.tech{
+    list-style: none;
+    background-color: #1B6778;
+    padding: 4px 8px;
+    border-radius: 2px;
+    color:#fbfbfb;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    font-family: "roboto";
+    margin-top: 14px;
+}
