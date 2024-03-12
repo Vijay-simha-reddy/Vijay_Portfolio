@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.07b103b0.css",
+    "main.js": "/static/js/main.9d6bd611.js",
+    "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
+    "static/media/Frontend.png": "/static/media/Frontend.ae872584f0ef8f6c6055.png",
+    "static/media/Software Engineer Intern.png": "/static/media/Software Engineer Intern.a4215034fd3d0c9f1688.png",
+    "static/media/NxtWatch.png": "/static/media/NxtWatch.dc202726644864b73203.png",
+    "static/media/Python.png": "/static/media/Python.ff64b069cce4c43f09c1.png",
+    "static/media/Ecommerce.png": "/static/media/Ecommerce.8f480cc1cefde06a0498.png",
+    "static/media/PasswordImg.png": "/static/media/PasswordImg.e4acf159bebd2ee98974.png",
+    "static/media/React.png": "/static/media/React.286193694e37d7eecddf.png",
+    "static/media/CSS.jpeg": "/static/media/CSS.8ca8972741d5f36c5d0a.jpeg",
+    "static/media/Bootstrap.jpeg": "/static/media/Bootstrap.2e08e702824d56a8c840.jpeg",
+    "static/media/SQLite.jpeg": "/static/media/SQLite.2acb2fea97daefa83af9.jpeg",
+    "static/media/ReactLogo.jpeg": "/static/media/ReactLogo.d449b3ae6fdf7eaf5f12.jpeg",
+    "index.html": "/index.html",
+    "main.07b103b0.css.map": "/static/css/main.07b103b0.css.map",
+    "main.9d6bd611.js.map": "/static/js/main.9d6bd611.js.map",
+    "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07b103b0.css",
+    "static/js/main.9d6bd611.js"
+  ]
+}
