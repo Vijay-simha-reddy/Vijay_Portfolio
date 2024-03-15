@@ -18,7 +18,7 @@ const ContactPage=()=>{
                     <p className='work'>I'm passionate about leveraging my skills and experience to help companies create engaging digital experiences that drive results. Let's collaborate to bring your vision to life!</p>
                     <p className='contact-email'><MdOutlineEmail className="icon-sub"/>contact@gmail.com</p>
                     <p className='contact-number'><FiPhoneCall className="icon-sub"/>0123456789</p>
-                    <form className='contact-info' onSubmit={handleSubmit}>
+                    <form className='contact-info mobile-device-contact-info' onSubmit={handleSubmit}>
                         <input type="text" className='input-section-1' placeholder='Name' name="name" />
                         <input type="email" className='input-section-1' placeholder='Email' name="email" />
                         <input type="text" className='input-section-1' placeholder='Subject' name="subject" />

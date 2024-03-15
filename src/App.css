@@ -15,7 +15,7 @@
 nav{
   background-color: #262626;
   padding: 20px 8%;
-  width:100%;
+  width:100vw;
 }
 .nav-container{
   display: flex;
@@ -72,6 +72,10 @@ a{
   }
   .active:hover{
     border: none;
+  }
+
+  .mobile-version-nav{
+    display: none;
   }
 
   @media only screen and (max-width: 480px){
