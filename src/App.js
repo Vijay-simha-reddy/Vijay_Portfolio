@@ -23,7 +23,8 @@ function App() {
   }
 
   return (
-    <>
+  
+      <div className='components-container'>
       <nav className='nav-container tab-version-nav'>
         <h1 className='main-heading-home-page'>Portfolio.</h1>
         <ul className='links-list'>
@@ -53,7 +54,6 @@ function App() {
           </ul>
       </nav>
     
-      <div className='components-container'>
         <section>
           <HomePage />
         </section>
@@ -73,7 +73,6 @@ function App() {
           <ContactPage />
         </section>
       </div>
-    </>
   );
 }
 

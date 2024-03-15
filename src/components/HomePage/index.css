@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 .home-page-container{
-    padding: 0px 8%;
+    padding: 20px 8%;
     background-color: #262626;
-    height:20%;
+    min-height:100vh;
+    max-width:100vw;
 }
 
 .home-information-section{
@@ -16,8 +17,8 @@
 }
 .profile-pic-section {
     background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
-    width:500px;
-    height:450px;
+    background-size: cover;
+    background-position: center;
     justify-self:flex-end ;
     display: flex;
     justify-content: center;
@@ -28,7 +29,7 @@
     height:500px
 }
 .introduction-section{
-    width:90%;
+    width:100%;
 }
 .third-heading-info{
     color:#ffffff;

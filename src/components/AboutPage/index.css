@@ -1,7 +1,8 @@
 .about-page-container{
     padding: 20px 8%;
     background-color: #262626;
-    height:100vh;
+    min-height:100vh;
+    width:100vw;
     display: flex;
     align-items: center;
     justify-content: center;
