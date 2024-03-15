@@ -5,7 +5,12 @@ class HomePage extends Component {
     state = {
       text: '',
       isAdding: true,
-      developerType: 'Mern Stack Developer'
+      developerType: 'Mern Stack Developer',
+        activeLink: 'home'
+    }
+  
+    handleClick = (link) => {
+      this.setState({ activeLink: link });
     };
   
     componentDidMount() {
@@ -58,6 +63,11 @@ class HomePage extends Component {
                         <h3 className='third-heading-info'>And I'm a<span className='highlight-domain'>{text}</span></h3>
                         <p className='summary-info'>I'm a web Designer with extensive experience for over 1 years. expertise is to create and 
                         website design, Frontend design, and many more....</p>
+                        <div className='image-section mobile-image-section'>
+                          <div className='profile-pic-section'>
+                              <img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133452/images-removebg-preview_bgsp61.png" alt="profile" className="home-profile-img"/>
+                          </div>
+                        </div>
                         <div className='more-about-info'>
                             <button type="button" className='more-btn'>More</button>
                             <button type="button" className='icon-btn'><img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710138862/Linkedin_dkz0sm.png" alt="linkedin" className='icon'/></button>
@@ -65,7 +75,7 @@ class HomePage extends Component {
                             <button type="button" className='icon-btn'><img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710138930/Whatsapp_ditr5z.png" alt="github" className='icon'/></button>
                         </div>
                     </div>
-                    <div className='image-section'>
+                    <div className='image-section device-version'>
                         <div className='profile-pic-section'>
                             <img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133452/images-removebg-preview_bgsp61.png" alt="profile" className="home-profile-img"/>
                         </div>

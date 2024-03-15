@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { IoMenu } from "react-icons/io5";
+import { MdOutlineClose } from "react-icons/md";
 import HomePage from './components/HomePage/index';
 import AboutPage from './components/AboutPage/index';
 import SkillsPage from './components/SkillsPage/index';
@@ -9,19 +11,48 @@ import ContactPage from './components/ContactPage/index';
 import './App.css';
 
 function App() {
+  const [activeLink, setActiveLink] = useState('home');
+  const [menuStatus, setMenuStatus] = useState(false);
+
+  const handleClick = (link) => {
+    setActiveLink(link);
+  };
+
+  const changeMenuIcon=()=>{
+    setMenuStatus(!menuStatus)
+  }
+
   return (
     <>
-      <nav className='nav-container'>
+      <nav className='nav-container tab-version-nav'>
         <h1 className='main-heading-home-page'>Portfolio.</h1>
         <ul className='links-list'>
-          <li className='each-item-link'><a href="#">Home</a></li>
-          <li className='each-item-link'><a href="#about">About</a></li>
-          <li className='each-item-link'><a href="#certificates">Certifications</a></li>
-          <li className='each-item-link'><a href="#skills">Skills</a></li>
-          <li className='each-item-link'><a href="#projects">Projects</a></li>
-          <li className='each-item-link'><button type="button" className='contact-button'>Contact</button></li>
+          <li className={`nav-item ${activeLink === 'home' ? 'active' : ''}`}><a href="#" onClick={() => handleClick('home')}>Home</a></li>
+          <li className={`nav-item ${activeLink === 'about' ? 'active' : ''}`}><a href="#about" onClick={() => handleClick('about')}>About</a></li>
+          <li className={`nav-item ${activeLink === 'certificates' ? 'active' : ''}`}><a href="#certificates" onClick={() => handleClick('certificates')}>Certificates</a></li>
+          <li className={`nav-item ${activeLink === 'skills' ? 'active' : ''}`}><a href="#skills" onClick={() => handleClick('skills')}>Skills</a></li>
+          <li className={`nav-item ${activeLink === 'projects' ? 'active' : ''}`}><a href="#projects" onClick={() => handleClick('projects')}>Projects</a></li>
+          <li className='nav-item-btn'><a href="#contact"><button type="button" className='contact-button'>Contact</button></a></li>
         </ul>
       </nav>
+
+      <nav className='nav-container mobile-version-nav'>
+        <div className='section1-menu'>
+          <h1 className='main-heading-home-page'>Portfolio.</h1>
+          <button  type="button" className='menu-btn' onClick={changeMenuIcon}>
+            {menuStatus? <MdOutlineClose className='menu'/>:<IoMenu className='menu'/>}
+          </button>
+        </div>
+        <ul className={`menu-links-list ${menuStatus ? 'menu-on' : 'menu-off'}`}>
+            <li className={`nav-item ${activeLink === 'home' ? 'active' : ''}`}><a href="#" onClick={() => handleClick('home')}>Home</a></li>
+            <li className={`nav-item ${activeLink === 'about' ? 'active' : ''}`}><a href="#about" onClick={() => handleClick('about')}>About</a></li>
+            <li className={`nav-item ${activeLink === 'certificates' ? 'active' : ''}`}><a href="#certificates" onClick={() => handleClick('certificates')}>Certificates</a></li>
+            <li className={`nav-item ${activeLink === 'skills' ? 'active' : ''}`}><a href="#skills" onClick={() => handleClick('skills')}>Skills</a></li>
+            <li className={`nav-item ${activeLink === 'projects' ? 'active' : ''}`}><a href="#projects" onClick={() => handleClick('projects')}>Projects</a></li>
+            <li className='nav-item-btn'><a href="#contact"><button type="button" className='contact-button'>Contact</button></a></li>
+          </ul>
+      </nav>
+    
       <div className='components-container'>
         <section>
           <HomePage />
@@ -29,10 +60,10 @@ function App() {
         <section id="about">
           <AboutPage />
         </section>
-        <section id="skills">
+        <section id="skills" >
           <SkillsPage />
         </section>
-        <section id="certificates">
+        <section id="certificates" >
           <CertificatesPage />
         </section>
         <section id="projects">

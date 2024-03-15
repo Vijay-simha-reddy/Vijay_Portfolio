@@ -77,3 +77,28 @@ h5{
     font-family: "roboto";
     margin-top: 14px;
 }
+@media only screen and (max-width: 480px){
+    .mobile-device-projectInfo{
+        width:100%;
+        background-color: #fbfbfb;
+    }
+    .mobile-device-projectInfo:hover {
+        box-shadow: 0 0 30px 0 #fbfbfb;
+    }
+    .mobile-device{
+        display: none;
+    }
+    .item-container{
+        background-color: #fbfbfb;
+        border-radius: 8px;
+    }
+    .projectName{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 14px; 
+    }
+    .tech{
+        font-size: 12px;
+    }
+}

@@ -1,7 +1,7 @@
 import './index.css'
 
 const AboutPage =()=>(
-    <div className='about-page-container' href="aboutLink">
+    <div className='about-page-container mobile-version-about-page-container' href="aboutLink">
         <div className='about-profile-about-section'>
             <img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710147686/images_tjkfgz.png" alt="profile" className='about-profileImage'/>
         </div>

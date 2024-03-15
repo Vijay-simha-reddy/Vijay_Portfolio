@@ -6,8 +6,7 @@
 .home-page-container{
     padding: 0px 8%;
     background-color: #262626;
-    height:50vh;
-    margin-top:-20px
+    height:20%;
 }
 
 .home-information-section{
@@ -29,7 +28,7 @@
     height:500px
 }
 .introduction-section{
-    width:50%;
+    width:90%;
 }
 .third-heading-info{
     color:#ffffff;
@@ -84,3 +83,30 @@
     height:28px;
 }
 
+@media only screen and (max-width: 480px){
+    .home-information-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .third-heading-info{
+        font-size: 18px;
+    }
+    .first-heading-info{
+        font-size:16px;
+    }
+    .summary-info{
+        font-size: 14px;
+    }
+    .device-version{
+        display: none;
+    }
+    .profile-pic-section {
+        background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
+        background-size:90% auto;
+    background-position: center; 
+    }
+    .home-profile-img{
+       max-width: 80%;
+       height:auto
+    }
+}

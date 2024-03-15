@@ -20,19 +20,19 @@ const ProjectsPage = () => {
             {
                 projectList.map(i=>(
                     <li className='item-container'>
-                        <img src={i.projectImg} alt="projectImg" className='projectImg'/>
-                        <div className='projectInfo'>
+                        <img src={i.projectImg} alt="projectImg" className='projectImg mobile-device'/>
+                        <div className='projectInfo mobile-device-projectInfo'>
                             <h2 className='projectName'>{i.projectName}</h2>
-                            <h4 className='projectLink'>Website : <a href={i.projectLink} className='link'>Project Link</a></h4>
+                            <h4 className='projectLink'>Website: <a href={i.projectLink} className='link'>Project Link</a></h4>
                             <h5>Technologies Used:</h5>
                             <div className='technologies'>
-    
-                                {i.technolgies.map(j=>(
-                                    <li className='tech'>{j}</li>
-                                ))}
+                            {i.technolgies.map(j=>(
+                                <li className='tech'>{j}</li>
+                            ))}
                             </div>
                         </div>
                     </li>
+
                 ))
             }
         </div>
