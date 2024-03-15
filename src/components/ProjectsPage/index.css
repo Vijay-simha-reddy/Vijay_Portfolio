@@ -24,7 +24,7 @@
 }
 .item-container{
     display: flex;
-    width:98%;
+    width:100%;
     height:260px;
     background-color: #dbdbdb;
     border-radius: 12px;
@@ -92,6 +92,7 @@ h5{
     .item-container{
         background-color: #fbfbfb;
         border-radius: 8px;
+        overflow-y: scroll;
     }
     .projectName{
         font-size: 20px;
@@ -100,6 +101,19 @@ h5{
         font-size: 14px; 
     }
     .tech{
-        font-size: 12px;
+        font-size: 10px;
+    }
+    .technologies{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        margin-top: 10px;
+    }
+    .projectLink{
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    h5{
+        margin-top: 10px;
     }
 }

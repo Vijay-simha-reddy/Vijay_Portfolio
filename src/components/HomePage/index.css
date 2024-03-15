@@ -6,7 +6,7 @@
 .home-page-container{
     padding: 20px 8%;
     background-color: #262626;
-    min-height:100vh;
+    min-height:100px;
     max-width:100vw;
 }
 
@@ -85,6 +85,9 @@
 }
 
 @media only screen and (max-width: 480px){
+    .home-page-container{
+        min-height:100px;
+    }
     .home-information-section{
         display: flex;
         flex-direction: column;
@@ -103,8 +106,10 @@
     }
     .profile-pic-section {
         background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
-        background-size:90% auto;
+        background-size:96% auto;
     background-position: center; 
+    margin-top: 20px;
+
     }
     .home-profile-img{
        max-width: 80%;

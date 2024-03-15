@@ -22,7 +22,7 @@ const ContactPage=()=>{
                         <input type="text" className='input-section-1' placeholder='Name' name="name" />
                         <input type="email" className='input-section-1' placeholder='Email' name="email" />
                         <input type="text" className='input-section-1' placeholder='Subject' name="subject" />
-                        <textarea placeholder='Message' rows="4" cols="50" name="message"></textarea>
+                        <textarea placeholder='Message' rows="4" cols="33" name="message"></textarea>
                         <button type="submit" className="submit-btn" disabled={state.submitting}>Submit</button>
                     </form>
                     <div className='images-conatct-section'>

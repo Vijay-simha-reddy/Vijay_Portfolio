@@ -34,7 +34,9 @@ h2{
     color:#fdfdfd;
     line-height: 1.5;
     margin-top: 20px;
+
 }
+
 .contact-email, .contact-number{
     font-size: 16px;
     color:#1B6778;
@@ -93,8 +95,14 @@ textarea{
     .mobile-device{
         display: none;
     }
+    .work{
+        text-align: justify;
+    }
+    .work-info{
+        width:100%;
+    }
     .contact-info, .work-info{
-        width:100%
+        width:100%;
     }
     .contact-info{
         margin-top: 28px;
