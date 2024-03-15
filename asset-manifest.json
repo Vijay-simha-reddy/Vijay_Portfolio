@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Vijay_Portfolio/static/css/main.815df2c5.css",
-    "main.js": "/Vijay_Portfolio/static/js/main.a79b8c09.js",
+    "main.css": "/Vijay_Portfolio/static/css/main.b82db6a1.css",
+    "main.js": "/Vijay_Portfolio/static/js/main.e4d12890.js",
     "static/js/453.ad6eb26e.chunk.js": "/Vijay_Portfolio/static/js/453.ad6eb26e.chunk.js",
     "static/media/Frontend.png": "/Vijay_Portfolio/static/media/Frontend.ae872584f0ef8f6c6055.png",
     "static/media/Software Engineer Intern.png": "/Vijay_Portfolio/static/media/Software Engineer Intern.a4215034fd3d0c9f1688.png",
@@ -15,12 +15,12 @@
     "static/media/SQLite.jpeg": "/Vijay_Portfolio/static/media/SQLite.2acb2fea97daefa83af9.jpeg",
     "static/media/ReactLogo.jpeg": "/Vijay_Portfolio/static/media/ReactLogo.d449b3ae6fdf7eaf5f12.jpeg",
     "index.html": "/Vijay_Portfolio/index.html",
-    "main.815df2c5.css.map": "/Vijay_Portfolio/static/css/main.815df2c5.css.map",
-    "main.a79b8c09.js.map": "/Vijay_Portfolio/static/js/main.a79b8c09.js.map",
+    "main.b82db6a1.css.map": "/Vijay_Portfolio/static/css/main.b82db6a1.css.map",
+    "main.e4d12890.js.map": "/Vijay_Portfolio/static/js/main.e4d12890.js.map",
     "453.ad6eb26e.chunk.js.map": "/Vijay_Portfolio/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.815df2c5.css",
-    "static/js/main.a79b8c09.js"
+    "static/css/main.b82db6a1.css",
+    "static/js/main.e4d12890.js"
   ]
 }
