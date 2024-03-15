@@ -91,9 +91,6 @@ textarea{
     font-size: 16px;
     cursor: pointer;
 }
-.mobile-device-contact-info{
-    display: none;
-}
 
 @media only screen and (max-width: 480px){
     .mobile-device{
@@ -111,4 +108,10 @@ textarea{
     .contact-info{
         margin-top: 28px;
     }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .mobile-device-contact-info{
+        display: none;
+    }
+    
 }

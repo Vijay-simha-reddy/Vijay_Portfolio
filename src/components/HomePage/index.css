@@ -84,10 +84,6 @@
     height:28px;
 }
 
-.mobile-image-section{
-    display: none;
-}
-
 @media only screen and (max-width: 480px){
     .home-page-container{
         min-height:100px;
@@ -118,5 +114,11 @@
     .home-profile-img{
        max-width: 80%;
        height:auto
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .mobile-image-section{
+        display: none;
     }
 }
