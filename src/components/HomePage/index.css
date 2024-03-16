@@ -84,19 +84,19 @@
     height:28px;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
     .home-page-container{
-        min-height:100px;
+        min-height:100%;
     }
     .home-information-section{
         display: flex;
         flex-direction: column;
     }
     .third-heading-info{
-        font-size: 18px;
+        font-size: 16px;
     }
     .first-heading-info{
-        font-size:16px;
+        font-size:18px;
     }
     .summary-info{
         font-size: 14px;
@@ -106,7 +106,7 @@
     }
     .profile-pic-section {
         background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
-        background-size:96% auto;
+        background-size:90% auto;
     background-position: center; 
     margin-top: 20px;
 
@@ -119,6 +119,75 @@
 
 @media screen and (min-width: 769px){
     .mobile-image-section{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1120px){
+    .home-profile-img {
+        max-width: 100%;
+        height: auto;   
+    }
+
+    .profile-pic-section {
+        background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
+        background-size: cover;
+        background-position: center;
+        margin-top: 20px;
+        
+    }
+    .image-section{
+        width:50%;
+        overflow-x: hidden;
+    }
+    .introduction-section{
+        width:50%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1017px){
+    .third-heading-info{
+        font-size: 22px;
+    }
+    .first-heading-info{
+        font-size:24px;
+    }
+    .summary-info{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .home-page-container{
+        min-height:100%;
+    }
+    .home-information-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .third-heading-info{
+        font-size: 18px;
+    }
+    .first-heading-info{
+        font-size:20px;
+    }
+    .summary-info{
+        font-size: 15px;
+    }
+    .device-version{
+        display: none;
+    }
+    .profile-pic-section {
+        background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
+        background-size:80% auto;
+    background-position: center; 
+    margin-top: 20px;
+
+    }
+    .home-profile-img{
+       max-width: 75%;
+       height:auto
+    }
+    .device-version{
         display: none;
     }
 }

@@ -29,7 +29,7 @@
     background-color: #dbdbdb;
     border-radius: 12px;
     border: 2px solid rgb(224, 222, 222);
-    padding: 4px;
+    padding: 2px;
 }
 .item-container:hover{
     box-shadow: 0 0 16px 0 rgb(64, 136, 184);
@@ -69,7 +69,7 @@
     padding: 4px 8px;
     border-radius: 2px;
     color:#fbfbfb;
-    font-size: 14px;
+    font-size: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,8 +77,10 @@
 h5{
     font-family: "roboto";
     margin-top: 14px;
+    font-size: 15px;
 }
-@media only screen and (max-width: 480px){
+
+@media only screen and (max-width: 768px){
     .mobile-device-projectInfo{
         width:100%;
         background-color: #fbfbfb;
@@ -93,7 +95,13 @@ h5{
         background-color: #fbfbfb;
         border-radius: 8px;
         overflow-y: scroll;
+        max-width: 100%;
+        height:auto;
     }
+    .item-container::-webkit-scrollbar{
+        width: 2px;
+        height:2px
+        }
     .projectName{
         font-size: 20px;
     }
@@ -116,4 +124,13 @@ h5{
     h5{
         margin-top: 10px;
     }
+}
+@media only screen and (min-width: 768px){
+    .projectInfo{
+        overflow-y: auto;
+    }
+    .projectInfo::-webkit-scrollbar{
+        width: 2px;
+        height:2px
+        }
 }

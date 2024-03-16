@@ -52,3 +52,8 @@
 .chrono-control-panel {
     width: 50px;
   }
+@media only screen and (max-width: 400px){
+  .certificate-page-container{
+    padding: 20px 2%;
+  }
+}
