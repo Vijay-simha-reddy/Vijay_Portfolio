@@ -16,7 +16,7 @@ const certificates = [
 
 const CertificatesPage = () => {
   return (
-    <div className='home-page-container certificate-page-container'>
+    <div className='certificate-page-container'>
       <h1 className='certificate-main-heading'>My <span className='heading-highlight'>Certifications</span></h1>
       <div className="chrono-container">
         <Chrono

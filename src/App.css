@@ -57,7 +57,7 @@ nav{
   padding: 8px 12px;
   color:#ffffff;
   font-family: "roboto";
-  font-weight: 600;
+  font-weight: bold;
   border:none;
   border-radius: 4px;
   cursor: pointer;
@@ -117,5 +117,9 @@ a{
     }
     nav{
       width:100%
+    }
+    .contact-button{
+      padding: 6px 8px;
+      font-weight: 500;
     }
   }
