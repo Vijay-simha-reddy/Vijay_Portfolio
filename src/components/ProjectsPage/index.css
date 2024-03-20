@@ -1,7 +1,7 @@
 .projects-container{
-    padding: 20px 8%;
+    padding: 20px 4%;
     background-color: #262626;
-    min-height:100vh;
+    min-height:80vh;
     max-width:100vw;
     display: flex;
     flex-direction: column;
@@ -10,6 +10,7 @@
     color:#ffffff;
     font-family: "roboto";
     text-align: center;
+    font-size: 38px;
 }
 .project-highlight{
     color:#ef1111;
@@ -17,120 +18,97 @@
 .project-list-items{
     width: 100%;
     display: flex;
-    flex-direction: column;
-    row-gap: 22px;
-    padding: 18px;
-    margin-top: 20px;
-}
-.item-container{
-    display: flex;
-    width:100%;
-    height:260px;
-    background-color: #dbdbdb;
-    border-radius: 12px;
-    border: 2px solid rgb(224, 222, 222);
-    padding: 2px;
-}
-.item-container:hover{
-    box-shadow: 0 0 16px 0 rgb(64, 136, 184);
-}
-.projectImg{
-    width:50%;
-    height:100%;
-    border-radius: 8px;
-}
-.projectInfo{
-    background-color: #dbdbdb;
-    width:50%;
-    padding: 10px 20px;
-}
-.projectName, .projectLink{
-    font-family:"roboto" ;
-    color:#262626
-}
-.projectLink{
-    font-weight: 600;
-    margin-top: 12px;
-}
-.link{
-    text-decoration: none;
-    color:#1B6778
-}
-
-.technologies{
-    display: flex;
     flex-wrap: wrap;
-    gap: 12px;
-    margin-top: 14px;
+    column-gap: 22px;
+    row-gap: 22px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height:60vh;
 }
-.tech{
-    list-style: none;
-    background-color: #1B6778;
-    padding: 4px 8px;
-    border-radius: 2px;
-    color:#fbfbfb;
-    font-size: 13px;
+.item-container {
+    position: relative;
+    width: 370px; 
+    height: 260px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-h5{
-    font-family: "roboto";
-    margin-top: 14px;
-    font-size: 15px;
-}
+    overflow: hidden;
+    border-radius: 4px;
+    border: 2px solid rgb(124, 182, 234);
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: opacity 0.5s ease; 
+    border-radius: 2px;
+  }
 
-@media only screen and (max-width: 768px){
-    .mobile-device-projectInfo{
-        width:100%;
-        background-color: #fbfbfb;
+  @keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
     }
-    .mobile-device-projectInfo:hover {
-        box-shadow: 0 0 30px 0 #fbfbfb;
+    100% {
+      transform: translateY(0%); 
     }
-    .mobile-device{
-        display: none;
+  }
+  
+  .project-info {
+    height:100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 1;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: slideInFromBottom 0.8s linear forwards;
+    transform: translateY(100%); 
+    background-image: 
+    linear-gradient(to left bottom, transparent 60%, #1B6778 115%), /* Left-bottom corner gradient */
+    linear-gradient(to right bottom, transparent 60%, #1B6778 115%);  }
+  
+  
+  .item-container:hover .background-image {
+    opacity: 0.1;
+    background-size: cover;
+  }
+  .item-container:hover{
+    border: none;
+  }
+  
+  .projectInfo-heading, .project-link{
+    margin-top: 14px;
+  }
+  .projectName-heading{
+   color:#ffffff;
+   text-align: center;
+  }
+  .projectInfo-heading{
+  color:aliceblue;
+  font-family: "roboto";
+  font-weight: 500;
+  text-align: center;
+  }
+  .project-link{
+    background-color: #ef1111;
+    border-radius: 50%;
+    padding: 6px 8px 6px 8px;
+  }
+
+  @media only screen and (max-width: 769px) {
+    .project-heading{
+        font-size: 32px;
     }
-    .item-container{
-        background-color: #fbfbfb;
-        border-radius: 8px;
-        overflow-y: scroll;
-        max-width: 100%;
-        height:auto;
-    }
-    .item-container::-webkit-scrollbar{
-        width: 2px;
-        height:2px
-        }
-    .projectName{
-        font-size: 20px;
-    }
-    h5{
-        font-size: 14px; 
-    }
-    .tech{
-        font-size: 10px;
-    }
-    .technologies{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 4px;
-        margin-top: 10px;
-    }
-    .projectLink{
-        font-weight: 600;
-        margin-top: 10px;
-    }
-    h5{
-        margin-top: 10px;
-    }
-}
-@media only screen and (min-width: 768px){
-    .projectInfo{
-        overflow-y: auto;
-    }
-    .projectInfo::-webkit-scrollbar{
-        width: 2px;
-        height:2px
-        }
-}
+  }
+
+  

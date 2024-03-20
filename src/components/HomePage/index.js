@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import { FiDownload } from "react-icons/fi";
 import './index.css'
 
 class HomePage extends Component {
@@ -6,7 +7,8 @@ class HomePage extends Component {
       text: '',
       isAdding: true,
       developerType: 'Mern Stack Developer',
-        activeLink: 'home'
+        activeLink: 'home',
+        file:null,
     }
   
     handleClick = (link) => {
@@ -50,7 +52,6 @@ class HomePage extends Component {
     componentWillUnmount() {
       clearInterval(this.interval);
     }
-  
 
     render(){
         const { text } = this.state;
@@ -61,22 +62,17 @@ class HomePage extends Component {
                         <h3 className='third-heading-info'>Hello, It's Me</h3>
                         <h1 className='first-heading-info'>Vijay Simha Reddy Dacharam</h1>
                         <h3 className='third-heading-info'>And I'm a<span className='highlight-domain'>{text}</span></h3>
-                        <p className='summary-info'>I'm a web Designer with extensive experience for over 1 years. expertise is to create and 
-                        website design, Frontend design, and many more....</p>
                         <div className='image-section mobile-image-section profile-pic-section'>
-                              <img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133452/images-removebg-preview_bgsp61.png" alt="profile" className="home-profile-img"/>
+                              <img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710969550/Seriously___-removebg-preview_keylsn.png" alt="profile" className="home-profile-img"/>
                         </div>
-                        <div className='more-about-info'>
-                            <button type="button" className='more-btn'>More</button>
-                            <button type="button" className='icon-btn'><img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710138862/Linkedin_dkz0sm.png" alt="linkedin" className='icon'/></button>
-                            <button type="button" className='icon-btn'><img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710138946/Instagram_xpo3wx.png" alt="instagram" className='icon'/></button>
-                            <button type="button" className='icon-btn'><img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710138930/Whatsapp_ditr5z.png" alt="github" className='icon'/></button>
+                        <p className='summary-info'>I'm a full-stack developer specialised in frontend and backend development for scalable web apps.I have made a variety of Mern Stack Applications and many more....</p>
+                       
+                        <div className='download-block'>
+                        <a className="download-link" href="VijaySimhaReddyDacharam.pdf" download="vijay.pdf">My Resume<FiDownload className='download-icon'/></a>
                         </div>
                     </div>
                     <div className='image-section device-version profile-pic-section'>
-                    
-                            <img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133452/images-removebg-preview_bgsp61.png" alt="profile" className="home-profile-img"/>
-  
+                      <img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710969550/Seriously___-removebg-preview_keylsn.png" alt="profile" className="home-profile-img"/>
                     </div>
                 </div>
             </div>

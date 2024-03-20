@@ -12,10 +12,10 @@
 .certificate-main-heading{
     color:#ffffff;
     font-family: "roboto";
+    font-size: 38px;
 }
 .chrono-container{
-    max-width:100%;
-    height:auto;
+  height:96vh;
   overflow-y: auto;
   margin-top: 20px;
 }
@@ -56,4 +56,13 @@
   .certificate-page-container{
     padding: 20px 6%;
   }
+  .certificate-main-heading{
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 769px){
+  .certificate-main-heading{
+    font-size: 32px;
+  }
+
 }

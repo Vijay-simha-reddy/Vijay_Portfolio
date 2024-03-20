@@ -9,7 +9,8 @@
 }
 .contact-heading{
     font-family: "roboto";
-    color:#ffffff
+    color:#ffffff;
+    font-size: 38px;
 }
 .hightlight-heading{
     color:#ef1111
@@ -45,6 +46,9 @@ h2{
     align-items: center;
     margin-top: 8px;
 }
+.contact-email{
+    margin-top: 14px;
+}
 .icon-sub{
     font-size: 16px;
     margin-right: 8px;
@@ -53,7 +57,7 @@ h2{
 .images-conatct-section{
     display: flex;
     column-gap: 14px;
-    margin-top: 44px; 
+    margin-top: 22px; 
 }
 .reachoutImg{
     width:28px;
@@ -89,8 +93,69 @@ textarea{
     padding: 12px 0px;
     font-family: "roboto";
     font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
 }
+.btn-contact-link{
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.github-icon{
+    border-radius: 50%;
+}
+
+.reachoutImg{
+    border-radius: 50%;
+}
+
+.reachoutImg:hover{
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.9);
+}
+.success-msg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.success-img{
+    width:78px;
+    height:78px;
+}
+.success-para{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "roboto";
+    margin-top: 18px;
+    color:#262626
+}
+.btn-send-again{
+    padding: 3px 8px;
+    font-family: "roboto";
+    font-size: 14px;
+    border: none;
+    margin-top: 14px;
+    background-color: #ef1111;
+    color:#ffffff;
+    border-radius: 4px;
+    border:none;
+    font-weight: 600;
+}
+.error-msg{
+    font-size: 14px;
+    font-family: "roboto";
+    font-weight: 500;
+    margin-top: -10px;
+    color:#ef1111
+}
+
 
 @media only screen and (max-width: 768px){
     .mobile-device{
@@ -107,6 +172,12 @@ textarea{
     }
     .contact-info{
         margin-top: 28px;
+    }
+    .contact-heading{
+        font-size: 32px;
+    }
+    .images-conatct-section{
+        margin-top: 18px;
     }
 }
 @media screen and (min-width: 769px){

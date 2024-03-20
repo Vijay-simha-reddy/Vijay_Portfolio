@@ -12,6 +12,7 @@
 font-family: "roboto";
 color:#ffffff;
 line-height: 1.5;
+font-size: 38px;
 }
 .skill-highlight{
     color:#ef1111
@@ -129,4 +130,22 @@ flex-direction: column;
   row-gap: 16px;
   
 }
+.skills-heading{
+font-size: 32px;
+}
+  }
+
+  .block{
+    width:200px;
+    height:200px;
+    background-color: #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .info:hover{
+    width:100px;
+    height:100px;
+    background: rgb(0, 0,0, 0.5);
+    backdrop-filter: 10px;
   }

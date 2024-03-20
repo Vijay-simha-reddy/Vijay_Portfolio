@@ -23,10 +23,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height:400px
+    
 }
 .home-profile-img{
-    width:500px;
-    height:500px
+    max-width: 80%;
+    height: auto;
+    margin-left: 16px;
 }
 .introduction-section{
     width:100%;
@@ -57,32 +60,25 @@
     color:#ef1111;
     margin-left: 8px;
 }
-.more-about-info{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    column-gap: 18px;
-    margin-top: 42px;
+.download-block{
+    margin-top: 32px;
 }
-.more-btn{
-    border:none;
-    background-color: transparent;
-    background-color: #ef1111;
-    font-family: "roboto";
-    font-weight: 500;
-    font-size: 16px;
-    border-radius: 2px;
+.download-link{
+    text-decoration: none;
+    font-size: 18x;
     color:#ffffff;
-    padding:8px 18px 
+    font-weight: 500;
+    background-color: #ef1111;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
 }
-.icon-btn{
-    background-color: transparent;
-    border:none;
+.download-icon{
+    margin-left: 8px;
 }
-.icon{
-    width:28px;
-    height:28px;
-}
+
+
+
 
 @media only screen and (max-width: 600px){
     .home-page-container{
@@ -106,14 +102,22 @@
     }
     .profile-pic-section {
         background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
-        background-size:90% auto;
+        background-size:70% auto;
     background-position: center; 
-    margin-top: 20px;
-
+    background-repeat: no-repeat;
+    height:300px;
+    margin-top: 18px;
     }
     .home-profile-img{
-       max-width: 80%;
-       height:auto
+       max-width: 44%;
+       height:auto;
+       margin-left: 16px;
+    }
+    .download-link{
+        font-size: 14px;
+    }
+    .summary-info{
+        margin-top: 0px;
     }
     
 }
@@ -126,7 +130,7 @@
 
 @media screen and (min-width: 769px) and (max-width: 1120px){
     .home-profile-img {
-        max-width: 100%;
+        max-width: 60%;
         height: auto;   
     }
 
@@ -179,16 +183,19 @@
     }
     .profile-pic-section {
         background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
-        background-size:80% auto;
+        background-size:70% auto;
     background-position: center; 
-    margin-top: 20px;
+    background-repeat: no-repeat;
 
     }
     .home-profile-img{
-       max-width: 75%;
+       max-width: 48%;
        height:auto
     }
     .device-version{
         display: none;
+    }
+    .summary-info{
+    margin-top:0px;
     }
 }

@@ -11,7 +11,7 @@ const certificates = [
   { id: 1, certificateCompany: "HackerRank", certificateImg: HackerRank, certificateName: "Software Engineer Intern" },
   { id: 2, certificateCompany: "HackerRank", certificateImg: Frontend, certificateName: "Frontend Developer (React)" },
   { id: 3, certificateCompany: "HackerRank", certificateImg: Python, certificateName: "Python" },
-  { id: 14, certificateCompany: "NxtWave", certificateImg: MernStack, certificateName: "Mern Stack Developer" }
+  { id: 14, certificateCompany: "NxtWave", certificateImg: MernStack, certificateName: "React JS" }
 ];
 
 const CertificatesPage = () => {

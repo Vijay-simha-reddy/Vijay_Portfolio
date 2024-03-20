@@ -7,7 +7,6 @@ import SkillsPage from './components/SkillsPage/index';
 import CertificatesPage from './components/CertificatesPage/index';
 import ProjectsPage from './components/ProjectsPage/index';
 import ContactPage from './components/ContactPage/index';
-
 import './App.css';
 
 function App() {
