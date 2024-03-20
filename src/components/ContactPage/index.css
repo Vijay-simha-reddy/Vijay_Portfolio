@@ -179,6 +179,9 @@ textarea{
     .images-conatct-section{
         margin-top: 18px;
     }
+    .success-msg-container{
+        width:100%;
+    }
 }
 @media screen and (min-width: 769px){
     .mobile-device-contact-info{
