@@ -68,6 +68,12 @@ const ContactPage=()=>{
                         <a href="https://www.linkedin.com/in/vijay-simha-reddy007/" target="_blank"  className="btn-contact-link" ><img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710138862/Linkedin_dkz0sm.png" alt="conatct" className='reachoutImg'/></a>
                         <a href="https://github.com/Vijay-simha-reddy/" target="_blank" className="btn-contact-link" ><img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710963046/Jobspresso_elx1lr.jpg"  alt="conatct" className='reachoutImg github-icon'/></a>
                     </div>
+                    {sentMsg?
+                <div className="success-msg-container">
+                    <img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710974868/success-removebg-preview_kdbrkh.png" alt="success" className="success-img"/>
+                    <p className="success-para">Successfully Sent!</p>
+                    <button type="button" className="btn-send-again" onClick={handleSendAgain}>Send Again</button>
+                </div> :
                     <form className='contact-info mobile-device-contact-info' onSubmit={handleSubmit}>
                         <input type="text" className='input-section-1' placeholder='Name' name="name" value={name}  onChange={(e)=>setName(e.target.value)}/>
                         <input type="email" className='input-section-1' placeholder='Email' name="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
@@ -76,6 +82,7 @@ const ContactPage=()=>{
                         <button type="submit" className="submit-btn">Submit</button>
                         {errorStatus && <p className="error-msg">{`*${errorMsg}`}</p>}
                     </form>
+}
                 </div>
                 {sentMsg?
                 <div className="success-msg-container">
