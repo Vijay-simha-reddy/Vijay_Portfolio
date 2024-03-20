@@ -100,19 +100,6 @@
     .device-version{
         display: none;
     }
-    .profile-pic-section {
-        background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
-        background-size:70% auto;
-    background-position: center; 
-    background-repeat: no-repeat;
-    height:300px;
-    margin-top: 18px;
-    }
-    .home-profile-img{
-       max-width: 44%;
-       height:auto;
-       margin-left: 16px;
-    }
     .download-link{
         font-size: 14px;
     }
@@ -129,22 +116,12 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1120px){
-    .home-profile-img {
-        max-width: 60%;
-        height: auto;   
-    }
-
-    .profile-pic-section {
-        background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
-        background-size: cover;
-        background-position: center;
-        margin-top: 20px;
-        
-    }
+   
     .image-section{
         width:50%;
         overflow-x: hidden;
     }
+
     .introduction-section{
         width:50%;
     }
@@ -181,21 +158,79 @@
     .device-version{
         display: none;
     }
-    .profile-pic-section {
-        background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
-        background-size:70% auto;
-    background-position: center; 
-    background-repeat: no-repeat;
-
-    }
-    .home-profile-img{
-       max-width: 48%;
-       height:auto
-    }
+   
     .device-version{
         display: none;
     }
     .summary-info{
     margin-top:0px;
     }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 400px){
+    .profile-pic-section {
+        background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
+        background-size:100% auto;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    }
+    .home-profile-img{
+       max-width: 55%;
+       height:auto
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 499px){
+    .profile-pic-section {
+        background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
+        background-size:100% auto;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    }
+    .home-profile-img{
+       max-width: 56%;
+       height:auto
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 699px){
+    .profile-pic-section {
+        background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
+        background-size:80% auto;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    }
+    .home-profile-img{
+       max-width: 50%;
+       height:auto
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 768px){
+    .profile-pic-section {
+        background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
+        background-size:74% auto;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    }
+    .home-profile-img{
+       max-width: 46%;
+       height:auto
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1120px){
+    .profile-pic-section {
+        background-image: url("https://res.cloudinary.com/dx10xo1p6/image/upload/v1710133440/graph_ywgvg5.png");
+        background-size:90% auto;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    }
+    .home-profile-img{
+       max-width: 58%;
+       height:auto
+    }
+
 }
