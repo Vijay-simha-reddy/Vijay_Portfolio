@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Vijay_Portfolio/static/css/main.6d189922.css",
-    "main.js": "/Vijay_Portfolio/static/js/main.ebef3573.js",
+    "main.css": "/Vijay_Portfolio/static/css/main.7fecceb8.css",
+    "main.js": "/Vijay_Portfolio/static/js/main.8bf14ad5.js",
     "static/js/453.ad6eb26e.chunk.js": "/Vijay_Portfolio/static/js/453.ad6eb26e.chunk.js",
     "static/media/Frontend.png": "/Vijay_Portfolio/static/media/Frontend.ae872584f0ef8f6c6055.png",
     "static/media/Software Engineer Intern.png": "/Vijay_Portfolio/static/media/Software Engineer Intern.a4215034fd3d0c9f1688.png",
     "static/media/NxtWatch.png": "/Vijay_Portfolio/static/media/NxtWatch.dc202726644864b73203.png",
     "static/media/Python.png": "/Vijay_Portfolio/static/media/Python.ff64b069cce4c43f09c1.png",
     "static/media/Ecommerce.png": "/Vijay_Portfolio/static/media/Ecommerce.8f480cc1cefde06a0498.png",
-    "static/media/PasswordImg.png": "/Vijay_Portfolio/static/media/PasswordImg.e4acf159bebd2ee98974.png",
+    "static/media/PasswordImg.png": "/Vijay_Portfolio/static/media/PasswordImg.ce3b82e8bcf698aa992c.png",
     "static/media/React.png": "/Vijay_Portfolio/static/media/React.286193694e37d7eecddf.png",
     "static/media/CSS.jpeg": "/Vijay_Portfolio/static/media/CSS.8ca8972741d5f36c5d0a.jpeg",
     "static/media/Bootstrap.jpeg": "/Vijay_Portfolio/static/media/Bootstrap.2e08e702824d56a8c840.jpeg",
     "static/media/SQLite.jpeg": "/Vijay_Portfolio/static/media/SQLite.2acb2fea97daefa83af9.jpeg",
     "static/media/ReactLogo.jpeg": "/Vijay_Portfolio/static/media/ReactLogo.d449b3ae6fdf7eaf5f12.jpeg",
     "index.html": "/Vijay_Portfolio/index.html",
-    "main.6d189922.css.map": "/Vijay_Portfolio/static/css/main.6d189922.css.map",
-    "main.ebef3573.js.map": "/Vijay_Portfolio/static/js/main.ebef3573.js.map",
+    "main.7fecceb8.css.map": "/Vijay_Portfolio/static/css/main.7fecceb8.css.map",
+    "main.8bf14ad5.js.map": "/Vijay_Portfolio/static/js/main.8bf14ad5.js.map",
     "453.ad6eb26e.chunk.js.map": "/Vijay_Portfolio/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d189922.css",
-    "static/js/main.ebef3573.js"
+    "static/css/main.7fecceb8.css",
+    "static/js/main.8bf14ad5.js"
   ]
 }
