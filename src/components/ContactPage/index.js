@@ -11,7 +11,7 @@ const ContactPage=()=>{
     const [subject, setSubject] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-    const [sentMsg, setSentMsg] = useState(false);
+    const [sentMsg, setSentMsg] = useState(true);
     const [errorStatus, setErrorStatus]= useState(false)
     const [errorMsg, setErrorMsg] = useState('')
 
