@@ -42,7 +42,7 @@ const ContactPage=()=>{
                 setSubject('');
                 setEmail('');
                 setMessage("");
-                setSentMsg(false);
+                setSentMsg(true);
                 setErrorStatus(false)
             } else {
                 setErrorMsg("Some input fields are empty");
