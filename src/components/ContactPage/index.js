@@ -11,7 +11,7 @@ const ContactPage=()=>{
     const [subject, setSubject] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-    const [sentMsg, setSentMsg] = useState(true);
+    const [sentMsg, setSentMsg] = useState(false);
     const [errorStatus, setErrorStatus]= useState(false)
     const [errorMsg, setErrorMsg] = useState('')
 
@@ -42,7 +42,7 @@ const ContactPage=()=>{
                 setSubject('');
                 setEmail('');
                 setMessage("");
-                setSentMsg(true);
+                setSentMsg(false);
                 setErrorStatus(false)
             } else {
                 setErrorMsg("Some input fields are empty");
