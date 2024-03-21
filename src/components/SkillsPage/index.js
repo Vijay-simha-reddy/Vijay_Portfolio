@@ -38,7 +38,7 @@ const SkillsPage = () => {
                 <div className='techincal-skills'>
                     {
                         skillsImages.map(i=>(
-                    <li className='lang-section'>
+                    <li className='lang-section' key={i.id}>
                         <img src={i.skillImg} alt={i.skillName} className='skill-img'/>
                         <p className='skillName'>{i.skillName}</p>
                     </li>
@@ -49,7 +49,7 @@ const SkillsPage = () => {
                 <h2 className='skill-sub-heading'>Professional Skills</h2>
                 <div className='professional-level-skills'>
                     { professionalSkills.map(i=>(
-                    <li className='lang-section'>
+                    <li className='lang-section' key={i.id}>
                         <div className="circular-progress-container">
                             <svg className="circular-progress" viewBox="0 0 100 100">
                                 <circle className="circular-progress-background" cx="50" cy="50" r="40" />

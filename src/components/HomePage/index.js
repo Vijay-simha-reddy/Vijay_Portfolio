@@ -65,10 +65,10 @@ class HomePage extends Component {
                         <div className='image-section mobile-image-section profile-pic-section'>
                               <img src="https://res.cloudinary.com/dx10xo1p6/image/upload/v1710969550/Seriously___-removebg-preview_keylsn.png" alt="profile" className="home-profile-img"/>
                         </div>
-                        <p className='summary-info'>I'm a full-stack developer specialised in frontend and backend development for scalable web apps.I have made a variety of Mern Stack Applications and many more....</p>
+                        <p className='summary-info'>I'm a Mern Stack developer specialised in frontend and backend development for scalable web apps.I have made a variety of Mern Stack Applications and many more....</p>
                        
                         <div className='download-block'>
-                        <a className="download-link" href="VijaySimhaReddyDacharam.pdf" download="vijay.pdf">My Resume<FiDownload className='download-icon'/></a>
+                        <a className="download-link" href="VijaySimhaReddyDacharam.pdf" download="VijaySimhaReddyDacharam.pdf">My Resume<FiDownload className='download-icon'/></a>
                         </div>
                     </div>
                     <div className='image-section device-version profile-pic-section'>
